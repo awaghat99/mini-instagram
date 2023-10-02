@@ -1,16 +1,16 @@
 import React from "react";
 import compass from "../logos/icons8-compass-50.png";
 import home from "../logos/icons8-home-50.png";
-import Gallery from "./Gallery";
-import Login from "./Login";
+import Main from "./Main";
+import Home from "./Home";
 
 const Sidebar = (props) => {
   const handleHomeClick = () => {
-    props.setPageToRender(<Login />);
+    props.setPageToRender(<Home />);
   };
 
   const handleExploreClick = () => {
-    props.setPageToRender(<Gallery />);
+    props.setPageToRender(<Main />);
   };
 
   return (

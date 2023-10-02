@@ -1,10 +1,10 @@
 import "./App.css";
 import { useState } from "react";
 import Sidebar from "./components/Sidebar";
-import Login from "./components/Login";
+import Home from "./components/Home";
 
 function App() {
-  const [pageToRender, setPageToRender] = useState(<Login />);
+  const [pageToRender, setPageToRender] = useState(<Home />);
   return (
     <div className="App">
       <div className="sidebar">
