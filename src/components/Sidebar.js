@@ -6,11 +6,11 @@ import Home from "./Home";
 
 const Sidebar = (props) => {
   const handleHomeClick = () => {
-    props.setPageToRender(<Home />);
+    props.setPageToRender(<Home loggedIn={props.loggedIn} />);
   };
 
   const handleExploreClick = () => {
-    props.setPageToRender(<Main />);
+    props.setPageToRender(<Main loggedIn={props.loggedIn} />);
   };
 
   return (
