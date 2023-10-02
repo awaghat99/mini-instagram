@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Picture = () => {
+const Picture = (props) => {
   return (
-    <div>Picture</div>
-  )
-}
+    <div className="picture">
+      <img src={props.url} alt="random" />
+    </div>
+  );
+};
 
-export default Picture
+export default Picture;

@@ -16,8 +16,8 @@
   position: relative;
   left: 20%;
   width: 80%;
-  height: 300vh;
 }
+
 .all-panels {
   height: 70vh;
   display: flex;
@@ -31,7 +31,6 @@
   margin-top: 15px;
   align-items: center;
   border-radius: 5px;
-  width: 100%;
 }
 
 .panel h3 {
@@ -59,4 +58,20 @@
 
 .follow h3 {
   margin: 15px;
+}
+
+.picture-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.picture {
+  width: 30%;
+  margin: 2px;
+}
+
+.picture img {
+  width: 100%;
+  height: 100%;
 }
