@@ -14,15 +14,17 @@ const Sidebar = (props) => {
   };
 
   return (
-    <div className="sidebar">
+    <div className="side">
       <h3>Instagram</h3>
-      <div className="home button" onClick={handleHomeClick}>
-        <img src={home} alt={home} />
-        <h3>Home</h3>
-      </div>
-      <div className="explore button" onClick={handleExploreClick}>
-        <img src={compass} alt="compass" />
-        <h3>Explore</h3>
+      <div className="all-panels">
+        <div className="home panel" onClick={handleHomeClick}>
+          <img src={home} alt={home} />
+          <h3>Home</h3>
+        </div>
+        <div className="explore panel" onClick={handleExploreClick}>
+          <img src={compass} alt="compass" />
+          <h3>Explore</h3>
+        </div>
       </div>
     </div>
   );

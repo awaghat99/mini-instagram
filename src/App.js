@@ -7,8 +7,10 @@ function App() {
   const [pageToRender, setPageToRender] = useState(<Login />);
   return (
     <div className="App">
-      <Sidebar setPageToRender={setPageToRender} />
-      {pageToRender}
+      <div className="sidebar">
+        <Sidebar setPageToRender={setPageToRender} />
+      </div>
+      <div className="main-content">{pageToRender}</div>
     </div>
   );
 }
