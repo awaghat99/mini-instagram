@@ -12,6 +12,7 @@
 }
 
 .main-content {
+  text-align: center;
   position: relative;
   left: 20%;
   width: 80%;
@@ -30,6 +31,7 @@
   margin-top: 15px;
   align-items: center;
   border-radius: 5px;
+  width: 100%;
 }
 
 .panel h3 {
@@ -44,4 +46,17 @@
 .panel:hover {
   background-color: rgb(200, 196, 196);
   cursor: pointer;
+}
+
+.profile-pic {
+  margin: 50px;
+}
+
+.follow {
+  display: flex;
+  justify-content: center;
+}
+
+.follow h3 {
+  margin: 15px;
 }
