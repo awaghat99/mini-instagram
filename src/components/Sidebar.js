@@ -1,16 +1,26 @@
 import React from "react";
 import compass from "../logos/icons8-compass-50.png";
 import home from "../logos/icons8-home-50.png";
+import Gallery from "./Gallery";
+import Login from "./Login";
 
-const Sidebar = () => {
+const Sidebar = (props) => {
+  const handleHomeClick = () => {
+    props.setPageToRender(<Login />);
+  };
+
+  const handleExploreClick = () => {
+    props.setPageToRender(<Gallery />);
+  };
+
   return (
     <div className="sidebar">
       <h3>Instagram</h3>
-      <div className="home button">
+      <div className="home button" onClick={handleHomeClick}>
         <img src={home} alt={home} />
         <h3>Home</h3>
       </div>
-      <div className="explore button">
+      <div className="explore button" onClick={handleExploreClick}>
         <img src={compass} alt="compass" />
         <h3>Explore</h3>
       </div>
