@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Login from "./components/Login";
 
 function App() {
-  const [loggedIn, setLoggedIn] = useState(true);
+  const [loggedIn, setLoggedIn] = useState(false);
   const [pageToRender, setPageToRender] = useState(<Home key="1" />);
   return (
     <div className="App">
