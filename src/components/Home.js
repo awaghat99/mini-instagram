@@ -1,9 +1,17 @@
 import React from "react";
 import profilePic from "../logos/profile-pic.jpg";
+import "./Home.css";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div className="home">
+      <button
+        className="logout-button"
+        onClick={() => {
+          props.setLoggedIn(false);
+        }}>
+        Log out
+      </button>
       <h1>Welcome to your Instagram HomePage</h1>
       <div className="profile">
         <div className="profile-pic">

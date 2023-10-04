@@ -6,7 +6,7 @@ import Home from "./Home";
 
 const Sidebar = (props) => {
   const handleHomeClick = () => {
-    props.setPageToRender(<Home key="2" />);
+    props.setPageToRender(<Home key="2" setLoggedIn={props.setLoggedIn} />);
   };
 
   const handleExploreClick = () => {
