@@ -28,7 +28,18 @@ const Picture = (props) => {
             <img src={bookmark} alt="icon" className="icon" />
           </div>
         </div>
+        <div className="likes">
+          <p>6102 likes</p>
+        </div>
+        <div className="caption">
+          <p>
+            <span>Random</span> Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nunc malesuada at massa sed ornare. Praesent nibh
+            felis, dignissim et accumsan quis, faucibus varius orci.
+          </p>
+        </div>
       </div>
+      <hr />
     </div>
   );
 };

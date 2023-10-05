@@ -1,3 +1,7 @@
+.whole-post {
+  margin-bottom: 35px;
+}
+
 .post-profile-info {
   display: flex;
   align-items: center;
@@ -28,4 +32,25 @@
 
 .icon:hover {
   cursor: pointer;
+}
+
+.likes {
+  text-align: left;
+  font-weight: bold;
+}
+
+.likes p {
+  margin: 25px 0;
+}
+
+.caption {
+  text-align: left;
+}
+
+.caption span {
+  font-weight: bold;
+}
+
+.whole-post hr {
+  margin-top: 30px;
 }
