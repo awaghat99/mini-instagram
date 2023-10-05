@@ -6,7 +6,7 @@ const Home = (props) => {
   return (
     <div className="home">
       <button
-        className="logout-button"
+        className=" button"
         onClick={() => {
           props.setLoggedIn(false);
         }}>
