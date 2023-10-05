@@ -62,17 +62,11 @@
 }
 
 .picture-holder {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.picture {
-  width: 30%;
-  margin: 2px;
+  width: 70%;
+  margin: auto;
 }
 
 .picture img {
   width: 100%;
-  height: 100%;
+  border-radius: 5px;
 }
