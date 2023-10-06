@@ -10,9 +10,9 @@ const Picture = (props) => {
   return (
     <div className="whole-post">
       <div className="post-profile-info">
-        <img src={avatar} alt="profile" />
-        <p className="profile-name">Random</p>
-        <span className="post-time">21h</span>
+        <img src={[props.avatar ? props.avatar : avatar]} alt="profile" />
+        <p className="profile-name">{props.username}</p>
+        <span className="post-time">{props.days}d</span>
       </div>
       <div className="picture">
         <img src={props.url} alt="random" />
@@ -29,13 +29,11 @@ const Picture = (props) => {
           </div>
         </div>
         <div className="likes">
-          <p>6102 likes</p>
+          <p>{Math.floor(Math.random() * 250000).toLocaleString()} likes</p>
         </div>
         <div className="caption">
           <p>
-            <span>Random</span> Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Nunc malesuada at massa sed ornare. Praesent nibh
-            felis, dignissim et accumsan quis, faucibus varius orci.
+            <span>{props.username}</span> {props.caption}
           </p>
         </div>
       </div>
