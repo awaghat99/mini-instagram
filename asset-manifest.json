@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mini-instagram/static/css/main.12522ff8.css",
+    "main.js": "/mini-instagram/static/js/main.d0d89693.js",
+    "static/media/home-phones-2x-overlay.png": "/mini-instagram/static/media/home-phones-2x-overlay.b0efa5d39e1e5f4abb5a.png",
+    "static/media/profile-pic.jpg": "/mini-instagram/static/media/profile-pic.7fe14f0accd9979e3303.jpg",
+    "static/media/heart-regular.svg": "/mini-instagram/static/media/heart-regular.c2608ab71fdcd9a9a05770d71ca4653e.svg",
+    "index.html": "/mini-instagram/index.html",
+    "static/media/comment-regular.svg": "/mini-instagram/static/media/comment-regular.052deb8c2dd8f505bcd9ddc07fec8114.svg",
+    "static/media/paper-plane-regular.svg": "/mini-instagram/static/media/paper-plane-regular.eb802e9b5802b258a4cf16827bcc2c6d.svg",
+    "static/media/bookmark-regular.svg": "/mini-instagram/static/media/bookmark-regular.129bd43ba37408e58f7cdaf152e643f4.svg",
+    "main.12522ff8.css.map": "/mini-instagram/static/css/main.12522ff8.css.map",
+    "main.d0d89693.js.map": "/mini-instagram/static/js/main.d0d89693.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12522ff8.css",
+    "static/js/main.d0d89693.js"
+  ]
+}
